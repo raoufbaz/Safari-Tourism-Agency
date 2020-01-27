@@ -1,0 +1,146 @@
+﻿/*------------------------------------------------------------------*/
+/*                         Index                                    */
+/*------------------------------------------------------------------*/
+
+/*-------------------------------*/
+/*            SlideShow          */
+/*-------------------------------*/
+#wrapper {
+    background-color: #FFE5CC;
+}
+
+    #slideshow {
+    height: 52%;
+    width: 100%;
+    color: #ececec;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#textslide {
+    margin: 0;
+}
+
+
+#textslide1 {
+    position: absolute;
+    left: 40%;
+    z-index: 1;
+    margin-top: 7%;
+    font-size: 50px;
+}
+
+#textslide2 {
+    position: absolute;
+    left: 35%;
+    margin-top: 12%;
+    z-index: 1;
+    font-size: 40px;
+}
+
+#slideimg1 {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+#slideimg2 {
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+#slideimg3 {
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+.slidebutton {
+    z-index: 1;
+    position: absolute;
+    top: 73%;
+    margin-left: 65%;
+    height: 5px;
+    width: 2%;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+#slidebutton1 {
+background-color:orange;
+}
+#slidebutton2 {
+    margin-left: 67.5%;
+}
+
+#slidebutton3 {
+    margin-left: 70%;
+}
+/*-------------------------------*/
+/*            InfoArticle        */
+/*-------------------------------*/
+.info {
+    height: 48%;
+    width: 19%;
+    z-index: 1;
+    position: absolute;
+    top: 76%;
+    margin-left: 6%;
+}
+
+#article1 {
+}
+
+#article2 {
+    margin-left: 30%;
+}
+
+#article3 {
+    margin-left: 55%;
+}
+
+.titreInfo {
+    height: 17%;
+    width: 100%;
+    background-color: whitesmoke;
+    border-top: solid 10px orange;
+}
+
+.imgInfo {
+    height: 40%;
+    width: 100%;
+}
+
+.DescInfo {
+    height: 40%;
+    width: 100%;
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+.Infoimg {
+    height: 100%;
+    width: 100%;
+}
+
+.TitreH3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding-top: 5%;
+    padding-left: 8%;
+}
+
+.Desc {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-left: 8%;
+    margin-right: 10%;
+    margin-top: 10%;
+    font-size: 12px;
+}

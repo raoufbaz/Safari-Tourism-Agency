@@ -1,0 +1,100 @@
+﻿
+/*------------------------------------------------------------------*/
+/*                           Master Page                            */
+/*------------------------------------------------------------------*/
+html, body, #form1 {
+    width: 100%;
+    height: 107%;
+    margin: 0%;
+    background-image: url('../photos/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+    padding-top: 3px;
+}
+
+#wrapper {
+    width: 80%;
+    height: 100%;
+    border: solid 1px black;
+    margin: auto;
+    background-color: #ececec;
+}
+
+nav {
+    width: 100%;
+    height: 8%;
+    background-color: #ececec;
+}
+
+header {
+    width: 100%;
+    height: 9%;
+    background-color: #0c0c0c;
+    color: white;
+}
+
+#liste,
+.menuItem    {
+    display: inline;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+#liste {
+    padding-top: 2%;
+    padding-left: 5%;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #232b2b;
+}
+
+a:link, a:visited {
+    color:black;
+    text-decoration: none;
+}
+
+#logo {
+    position: absolute;
+    padding-left: 4%;
+    padding-top: 1.5%;
+    width: 4%;
+    height: 5%;
+}
+
+#loupe {
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 74%;
+    width: 2%;
+    height: 3%;
+    cursor: pointer;
+}
+
+#titre {
+    margin: 0%;
+    padding-left: 12%;
+    padding-top: 2.2%;
+    font-family: sans-serif;
+}
+
+#langue1 {
+    float: right;
+    padding-left: 0%;
+    padding-right:1%;
+}
+#langue2 {
+    float: right;
+    padding-left: 0%;
+}
+.btnlangue {
+    border: none;
+    color: black;
+    background-color: #ececec;
+    font-weight:bold;
+    font-size:15px;
+}
+.btnlangue:hover {
+    cursor:pointer;
+}

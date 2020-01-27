@@ -1,0 +1,76 @@
+﻿#Infos {
+    float:left;
+height:50%;
+width:32%;
+margin-top:5%;
+}
+
+.InfosTitre {
+    float:none;
+}
+.listeInfo {
+    margin-left: 2%;
+}
+.listeInfo,.InfoItem {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+}
+#cc {
+margin-top:5%;
+}
+/*--------------------------------------------------------*/
+/*                      Formulaire                        */
+/*--------------------------------------------------------*/
+#sectionForm {
+    float: left;
+    height: 50%;
+    width: 68%;
+}
+#sectionForm {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:5.5%;
+}
+input[type=text]{
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top:3%;
+  margin-right:3%;
+}
+#fmessage {
+    width: 82%;
+    height: 30%;
+    display: inline-block;
+    resize: none;
+}
+textarea {
+    margin-top:3%;
+    width: 82%;
+    height: 30%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+.btncontact{
+    background-color: orange;
+    color: whitesmoke;
+    border: none;
+    font-size: 16px;
+    padding: 15px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 4px;
+    font-weight:bold;
+    margin-top:3%;
+    margin-right:2%;
+
+}

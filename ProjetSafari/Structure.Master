@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Structure.master.cs" Inherits="ProjetSafari.Structure" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Safari</title>
+    
+    <link href="styles/master.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+
+
+</head>
+<body>
+    <form id="form1" runat="server" >
+        <div id="wrapper">
+            
+            <nav>
+                <div id="liste">
+                    <ul id="menu">
+                        <li class="menuItem"><a href="Default.aspx"><asp:Label ID="NavLbl1" runat="server" Text=""></asp:Label></a></li>
+                        <li class="menuItem"><asp:Label ID="NavLbl2" runat="server" Text=""></asp:Label></li>
+                        <li class="menuItem"><asp:Label ID="NavLbl3" runat="server" Text=""></asp:Label></li>
+                        <li class="menuItem"><a href="Gallery.aspx"><asp:Label ID="NavLbl4" runat="server" Text=""></asp:Label></a></li>
+                        <li class="menuItem"><asp:Label ID="NavLbl5" runat="server" Text=""></asp:Label></li>
+                        <li class="menuItem"><a href="Contact.aspx"><asp:Label ID="NavLbl6" runat="server" Text=""></asp:Label></a></li>
+                        
+                        <li class="menuItem" id="langue2"><asp:Button ID="BtnLangue2" CssClass="btnlangue" runat="server" Text="" OnClick="Btnlangue2_Click" /></li>  
+                        <li class="menuItem" id="langue1"><asp:Button ID="BtnLangue1" CssClass="btnlangue" runat="server" Text="" OnClick="Btnlangue1_Click" /></li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <header>
+                <img id="logo" src="photos/globe.png" alt="">
+                <img id="loupe" src="photos/loupe.png" alt="">
+                <h2 id="titre">Safari Adventure</h2>
+            </header>
+          
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+
+
+      
+       <script src="script/jquery-3.3.1.js"></script>
+    <script src="script/MyScript.js"></script>
+        <script src="script/validation.js"></script>
+    </form>
+</body>
+</html>
